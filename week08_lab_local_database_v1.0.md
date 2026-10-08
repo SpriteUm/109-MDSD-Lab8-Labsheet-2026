@@ -128,8 +128,8 @@ class ListingDrafts extends Table {
 
 4..unique() กันข้อมูลซ้ำ Gemini ไม่ได้ใส่คำว่า .unique() มาตรงๆ แต่ไปใช้วิธีล็อก PK ไว้แทน ซึ่งถ้าเราเปลี่ยนไปใช้ id รันเลขอัตโนมัติ ก็จำเป็นต้องเติม .unique() ให้ id สินค้าเอง เพื่อกันผู้ใช้กดหัวใจซ้ำ
 ```
-![alt text](image.png)
-![alt text](image-1.png)
+![alt text](image/image.png)
+![alt text](image/image-1.png)
 ---
 
 ## ส่วนที่ 2: ติดตั้ง Drift และประกาศตาราง
@@ -230,9 +230,9 @@ capture หน้าจอผลลัพธ์คำสั่ง `dart run buil
 บันทึกผลลัพธ์ที่นี่
 ```
 #### หน้าจอผลลัพธ์คำสั่ง dart run build_runner build จากขั้นตอนที่ 3.2
-![alt text](image-2.png)
+![alt text](image/image-2.png)
 #### เปิดไฟล์ main.dart ที่แก้ตามขั้นตอนที่ 3.3
-![alt text](image-3.png)
+![alt text](image/image-3.png)
 
 ---
 
@@ -361,17 +361,17 @@ items: const [
 บันทึกผลลัพธ์ที่นี่
 ```
 #### (ก) กดหัวใจที่สินค้า 3 ชิ้นจากหน้า Home
-![alt text](image-4.png)
-![alt text](image-5.png)
+![alt text](image/image-4.png)
+![alt text](image/image-5.png)
 #### (ข) สลับไป Tab "รายการโปรด" เห็นครบทั้ง 3 ชิ้น
-![alt text](image-6.png)
+![alt text](image/image-6.png)
 #### (ค) ปิดแอปให้สนิท (Force Stop หรือปัดออกจาก Recent Apps) แล้วเปิดใหม่ กลับไปที่ Tab รายการโปรดอีกครั้ง
-![alt text](image-7.png)
-![alt text](image-8.png)
-![alt text](image-9.png)
+![alt text](image/image-7.png)
+![alt text](image/image-8.png)
+![alt text](image/image-9.png)
 #### (ง) กลับไปหน้า Home แล้วกดหัวใจซ้ำที่สินค้าชิ้นเดิมอีกครั้ง (ชิ้นที่ยังไม่ได้ลบ) แล้วตรวจสอบที่ Tab รายการโปรดว่ายังแสดงสินค้าชิ้นนั้นแค่แถวเดียว ไม่ซ้ำ
-![alt text](image-10.png)
-![alt text](image-11.png)
+![alt text](image/image-10.png)
+![alt text](image/image-11.png)
 
 
 
@@ -425,6 +425,18 @@ class SellItemPage extends StatefulWidget {
 บันทึกผลลัพธ์ที่นี่
 ```
 
+#### 1. สร้างร่างประกาศใหม่ผ่าน Tab "ลงประกาศขาย" ด้วยความช่วยเหลือของ AI เหมือนสัปดาห์ที่ 7
+![alt text](image/image-12.png)
+
+#### 2. กดยืนยันร่าง
+![alt text](image/image-13.png)
+
+#### 3. กดปุ่มไอคอนเข้าหน้า "ร่างประกาศของฉัน" แล้วเห็นร่างที่เพิ่งสร้าง
+![alt text](image/image-14.png)
+
+#### 4. ปิดแอปให้สนิทแล้วเปิดใหม่ กลับเข้าหน้า "ร่างประกาศของฉัน" อีกครั้ง
+![alt text](image/image-15.png)
+![alt text](image/image-16.png)
 ---
 
 ## ส่วนที่ 6: ทดสอบสถานการณ์ Offline-first
@@ -438,6 +450,10 @@ class SellItemPage extends StatefulWidget {
 ```text
 บันทึกผลลัพธ์ที่นี่
 ```
+![alt text](<image/Screenshot 2026-10-08 184247.png>)
+![alt text](<image/Screenshot 2026-10-08 184407.png>)
+![alt text](<image/Screenshot 2026-10-08 184537.png>)
+![alt text](<image/Screenshot 2026-10-08 184544.png>)
 
 ---
 
